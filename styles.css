@@ -107,7 +107,7 @@ ul li.active a{
 .grid-container
 		{
 	       display: grid;
-           grid-template-columns: auto auto auto;
+           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
            padding: 5px;
            grid-row-gap:20px;
            column-gap: 30px;
