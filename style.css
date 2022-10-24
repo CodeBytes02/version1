@@ -105,13 +105,14 @@ ul li.active a{
 	color: #000;
 }
 .grid-container
-		{
-	   display: grid;
-           grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-           padding: 5px;
-           grid-row-gap:20px;
-           column-gap: 30px;
-           text-align: center;
+{
+	display: grid;
+        padding: 5px;
+        grid-row-gap:20px;
+        column-gap: 30px;
+        text-align: center;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	
        }
 
 
